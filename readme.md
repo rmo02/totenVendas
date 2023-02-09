@@ -1,5 +1,5 @@
-<h1 align="center">Iniciando projeto Valen Log 🤖</h1>
+<h1 align="center"> Valen Log Totem Project 🚛📠 </h1>
 
 <h4 align="center"> 
-	🚧  Valen Log - Totem 🚀 Em construção... 🚧
+	🚧  Valen Log - Totem 🚀 in development... 🚧
 </h4>
