@@ -1,3 +1,5 @@
 ## Iniciando projeto Valen Log
 
-teste fylip via fork
+## Tecnologias:
+
+    -   React Native
