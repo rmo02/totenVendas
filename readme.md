@@ -3,5 +3,3 @@
 <h4 align="center"> 
 	🚧  Valen Log - Totem 🚀 Em construção... 🚧
 </h4>
-
-<p></p>
