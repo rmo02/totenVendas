@@ -14,7 +14,13 @@ export default {
       GRAY_400: '#323238',
       GRAY_300: '#7C7C8A',
       GRAY_200: '#C4C4CC',
-      GRAY_100: '#E1E1E6'
+      GRAY_100: '#E1E1E6',
+
+      BLUE_600: '#1A2EA1',
+      BLUE_700:'#061F89',
+
+      ORANGE_500: '#FF875E',
+      ORANGE_700: '#FA6900'
     },
     FONT_FAMILY: {
       REGULAR: 'Inter_400Regular',

@@ -8,5 +8,7 @@ background-color: ${({ theme }) => theme.COLORS.GRAY_600};
 `;
 
 export const LoadIndicator = styled.ActivityIndicator.attrs(({theme})=>({
-    color: theme.COLORS.GREEN_700
-}))``;
+    color: theme.COLORS.GREEN_700,
+}))`
+ 
+`;

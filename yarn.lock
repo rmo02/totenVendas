@@ -1222,6 +1222,20 @@
     "slugify" "^1.3.4"
     "sucrase" "^3.20.0"
 
+"@expo/configure-splash-screen@^0.6.0":
+  "integrity" "sha512-4DyPoNXJqx9bN4nEwF3HQreo//ECu7gDe1Xor3dnnzFm9P/VDxAKdbEhA0n+R6fgkNfT2onVHWijqvdpTS3Xew=="
+  "resolved" "https://registry.npmjs.org/@expo/configure-splash-screen/-/configure-splash-screen-0.6.0.tgz"
+  "version" "0.6.0"
+  dependencies:
+    "color-string" "^1.5.3"
+    "commander" "^5.1.0"
+    "fs-extra" "^9.0.0"
+    "glob" "^7.1.6"
+    "lodash" "^4.17.15"
+    "pngjs" "^5.0.0"
+    "xcode" "^3.0.0"
+    "xml-js" "^1.6.11"
+
 "@expo/dev-server@0.1.124":
   "integrity" "sha512-iHczVcf+rgWupCY/3b3ePIizNtzsy1O/w8jdKv3bKvoOfXiVIVOo4KGiVDpAJOahKiMOsRlbKeemB8OLNKzdSA=="
   "resolved" "https://registry.npmjs.org/@expo/dev-server/-/dev-server-0.1.124.tgz"
@@ -1430,6 +1444,11 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
+"@heasy/react-native-sunmi-printer@^1.7.0":
+  "integrity" "sha512-P7jE5JX4P0T68a+kjJ937QaoJ42bI4vvdX+Wu5Rg32TctLwToJG5ugtP4PBOjM9mwhhSuzsoos/b1wBcw4jInQ=="
+  "resolved" "https://registry.npmjs.org/@heasy/react-native-sunmi-printer/-/react-native-sunmi-printer-1.7.0.tgz"
+  "version" "1.7.0"
+
 "@jest/create-cache-key-function@^29.0.3":
   "integrity" "sha512-o2weIg3h8/7+jXF6EjcOiz9TAlNMtcmeH5IARTVgHs3IoQGbh5E/ZLLskfEsHVIYoCKgx+v093Vf8hOgMWggvg=="
   "resolved" "https://registry.npmjs.org/@jest/create-cache-key-function/-/create-cache-key-function-29.4.2.tgz"
@@ -1517,6 +1536,11 @@
   dependencies:
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
+
+"@makgabri/react-native-sunmi-printer@^0.1.1":
+  "integrity" "sha512-UcbWrlXO6f4VW3ndb3XT3szmhTfADuxQiC1ogevdakOyPR6jh6Joo2Icx7SQoC2yIDfHwYJSdP7Nn0wq8IhOXA=="
+  "resolved" "https://registry.npmjs.org/@makgabri/react-native-sunmi-printer/-/react-native-sunmi-printer-0.1.1.tgz"
+  "version" "0.1.1"
 
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
@@ -2685,7 +2709,7 @@
   dependencies:
     "color-name" "~1.1.4"
 
-"color-name@~1.1.4":
+"color-name@^1.0.0", "color-name@~1.1.4":
   "integrity" "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA=="
   "resolved" "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
   "version" "1.1.4"
@@ -2694,6 +2718,14 @@
   "integrity" "sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw=="
   "resolved" "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz"
   "version" "1.1.3"
+
+"color-string@^1.5.3":
+  "integrity" "sha512-shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg=="
+  "resolved" "https://registry.npmjs.org/color-string/-/color-string-1.9.1.tgz"
+  "version" "1.9.1"
+  dependencies:
+    "color-name" "^1.0.0"
+    "simple-swizzle" "^0.2.2"
 
 "colorette@^1.0.7":
   "integrity" "sha512-Y2oEozpomLn7Q3HFP7dpww7AtMJplbM9lGZP6RDfHqmbeRjiwRg4n6VM6j4KLmRke85uWEI7JqF17f3pqdRA0g=="
@@ -2716,6 +2748,11 @@
   "integrity" "sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA=="
   "resolved" "https://registry.npmjs.org/commander/-/commander-4.1.1.tgz"
   "version" "4.1.1"
+
+"commander@^5.1.0":
+  "integrity" "sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg=="
+  "resolved" "https://registry.npmjs.org/commander/-/commander-5.1.0.tgz"
+  "version" "5.1.0"
 
 "commander@^7.2.0":
   "integrity" "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw=="
@@ -3272,6 +3309,19 @@
   dependencies:
     "compare-versions" "^3.4.0"
     "invariant" "^2.2.4"
+
+"expo-print@~12.0.0":
+  "integrity" "sha512-S9MD1iL3xicFuNwNEpfcIt0B4Afs9L+H2qLBDNGksv1b7gRCIf0NUSuDexVHkKkmWxhu0Rg7ClChtNpaB2AoOQ=="
+  "resolved" "https://registry.npmjs.org/expo-print/-/expo-print-12.0.0.tgz"
+  "version" "12.0.0"
+
+"expo-splash-screen@~0.17.5":
+  "integrity" "sha512-ejSO78hwHXz8T9u8kh8t4r6CR4h70iBvA65gX8GK+dYxZl6/IANPbIb2VnUpND9vqfW+JnkDw+ZFst+gDnkpcQ=="
+  "resolved" "https://registry.npmjs.org/expo-splash-screen/-/expo-splash-screen-0.17.5.tgz"
+  "version" "0.17.5"
+  dependencies:
+    "@expo/configure-splash-screen" "^0.6.0"
+    "@expo/prebuild-config" "5.0.7"
 
 "expo-status-bar@~1.4.2":
   "integrity" "sha512-ZWjO6D4ARGYfAd3SWDD3STNudHDhyBZDZjhhseqoEmsf7bS9ykny8KKOhlzJW24qIQNPhkgdvHhaw9fQwMJy3Q=="
@@ -3950,6 +4000,11 @@
   "resolved" "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz"
   "version" "0.2.1"
 
+"is-arrayish@^0.3.1":
+  "integrity" "sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ=="
+  "resolved" "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.3.2.tgz"
+  "version" "0.3.2"
+
 "is-buffer@^1.1.5", "is-buffer@~1.1.1", "is-buffer@~1.1.6":
   "integrity" "sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w=="
   "resolved" "https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz"
@@ -4440,7 +4495,7 @@
   "resolved" "https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz"
   "version" "4.1.1"
 
-"lodash@^4.17.11", "lodash@^4.17.13", "lodash@^4.17.4":
+"lodash@^4.17.11", "lodash@^4.17.13", "lodash@^4.17.15", "lodash@^4.17.4":
   "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
   "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
@@ -5455,6 +5510,11 @@
   "resolved" "https://registry.npmjs.org/pngjs/-/pngjs-3.4.0.tgz"
   "version" "3.4.0"
 
+"pngjs@^5.0.0":
+  "integrity" "sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw=="
+  "resolved" "https://registry.npmjs.org/pngjs/-/pngjs-5.0.0.tgz"
+  "version" "5.0.0"
+
 "posix-character-classes@^0.1.0":
   "integrity" "sha512-xTgYBc3fuo7Yt7JbiuFxSYGToMoz8fLoE6TC9Wx1P/u+LfeThMOAqmuyECnlBaaJb+u1m9hHiXUEtwW4OzfUJg=="
   "resolved" "https://registry.npmjs.org/posix-character-classes/-/posix-character-classes-0.1.1.tgz"
@@ -5990,7 +6050,7 @@
   "resolved" "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
   "version" "2.1.2"
 
-"sax@>=0.6.0":
+"sax@^1.2.4", "sax@>=0.6.0":
   "integrity" "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
   "resolved" "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
   "version" "1.2.4"
@@ -6158,6 +6218,13 @@
     "bplist-creator" "0.1.0"
     "bplist-parser" "0.3.1"
     "plist" "^3.0.5"
+
+"simple-swizzle@^0.2.2":
+  "integrity" "sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg=="
+  "resolved" "https://registry.npmjs.org/simple-swizzle/-/simple-swizzle-0.2.2.tgz"
+  "version" "0.2.2"
+  dependencies:
+    "is-arrayish" "^0.3.1"
 
 "sisteransi@^1.0.5":
   "integrity" "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg=="
@@ -6995,13 +7062,20 @@
   "resolved" "https://registry.npmjs.org/ws/-/ws-7.5.9.tgz"
   "version" "7.5.9"
 
-"xcode@^3.0.1":
+"xcode@^3.0.0", "xcode@^3.0.1":
   "integrity" "sha512-kCz5k7J7XbJtjABOvkc5lJmkiDh8VhjVCGNiqdKCscmVpdVUpEAyXv1xmCLkQJ5dsHqx3IPO4XW+NTDhU/fatA=="
   "resolved" "https://registry.npmjs.org/xcode/-/xcode-3.0.1.tgz"
   "version" "3.0.1"
   dependencies:
     "simple-plist" "^1.1.0"
     "uuid" "^7.0.3"
+
+"xml-js@^1.6.11":
+  "integrity" "sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g=="
+  "resolved" "https://registry.npmjs.org/xml-js/-/xml-js-1.6.11.tgz"
+  "version" "1.6.11"
+  dependencies:
+    "sax" "^1.2.4"
 
 "xml2js@0.4.23":
   "integrity" "sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug=="
