@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ValenToten</string>
+    <string name="forma_de_pagamento">Qual a forma de pagamento?</string>
+    <string name="cartao_de_debito">Cartão de Débito</string>
+    <string name="cartao_de_credito">Cartão de Crédito</string>
+    <string name="pix">Pix</string>
+    <string name="confirmar_pagamento_prazo">Confirmar pagamento a prazo?</string>
+    <string name="leia_o_qrcode">Leia o QRcode PIX</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aguardando_pagamento">Aguardando pagamento</string>
+    <string name="insira_cartao">Insira ou aproxime o cartão na maquininha</string>
+    <string name="cartao_inserido">Cartão inserido</string>
+    <string name="digite_senha">Digite sua senha na maquininha</string>
+    <string name="pagamento_confirmado">Pagamento confirmado</string>
+    <string name="aguarde_comprovante">Aguarde o comprovante</string>
+    <string name="finalizar">Finalizar (10)</string>
+</resources>
