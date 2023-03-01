@@ -1,0 +1,34 @@
+export default {
+    COLORS: {
+      WHITE: '#FFFFFF',
+  
+      GREEN_700: '#00875F',
+      GREEN_500: '#00B37E',
+  
+      RED: '#F75A68',
+      RED_DARK: '#AA2834',
+  
+      GRAY_700: '#121214',
+      GRAY_600: '#202024',
+      GRAY_500: '#29292E',
+      GRAY_400: '#323238',
+      GRAY_300: '#7C7C8A',
+      GRAY_200: '#C4C4CC',
+      GRAY_100: '#E1E1E6',
+
+      BLUE_600: '#1A2EA1',
+      BLUE_700:'#061F89',
+
+      ORANGE_500: '#FF875E',
+      ORANGE_700: '#FA6900'
+    },
+    FONT_FAMILY: {
+      REGULAR: 'Inter_400Regular',
+      BOLD: 'Inter_700Bold'
+    },
+    FONT_SIZE: {
+      SM: 14,
+      MD: 16,
+      LG: 18,
+    }
+  };
