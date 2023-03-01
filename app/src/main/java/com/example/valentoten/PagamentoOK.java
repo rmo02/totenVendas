@@ -10,5 +10,7 @@ public class PagamentoOK extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagamento_ok);
+
+        getSupportActionBar().hide();
     }
 }
