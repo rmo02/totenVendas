@@ -52,7 +52,6 @@ public class PagamentoSelect extends AppCompatActivity {
             @Override
             public void onResponse(String response) {
                 Toast.makeText(getApplication(), response, Toast.LENGTH_LONG).show();
-                System.out.println(response);
             }
         }, new Response.ErrorListener() {
             @Override
