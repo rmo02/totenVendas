@@ -139,7 +139,7 @@
 
     <View
         android:id="@+id/containerModal"
-        style="@style/ContainerWhite"
+        style="@style/ContainerWhite2"
         android:layout_marginHorizontal="80dp"
         android:layout_marginTop="80dp"
         app:layout_constraintStart_toStartOf="parent"

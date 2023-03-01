@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context=".home">
+
+
+    <View
+        android:id="@+id/header"
+        style="@style/ContainerComponents"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-15dp" />
+
+    <TextClock
+        android:id="@+id/text_hora"
+        android:layout_width="246dp"
+        android:layout_height="68dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="596dp"
+        android:format12Hour="hh:mm"
+        android:format24Hour="hh:mm"
+        android:paddingLeft="85dp"
+        android:paddingTop="10dp"
+        android:text="00:00"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_entrar"
+        style="@style/Button"
+        android:text="@string/home"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        android:layout_marginTop="150dp"
+        />
+
+    <View
+        style="@style/ContainerComponents"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="190dp"
+        app:layout_constraintStart_toStartOf="@+id/btn_entrar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_entrar"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fundo"
-    tools:context=".PagamentoSelect">
+    tools:context=".CPF">
 
     <View
         android:id="@+id/header1"
@@ -17,12 +17,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/header2"
+       android:id="@+id/header2"
         style="@style/HeaderCPF"
-
         app:layout_constraintStart_toStartOf="@+id/header1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/header1" />
+        app:layout_constraintTop_toBottomOf="@+id/header1" />
 
     <TextView
         android:id="@+id/textData"
@@ -49,7 +48,7 @@
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@id/header2"
+        app:layout_constraintStart_toStartOf="@+id/header2"
         app:layout_constraintTop_toBottomOf="@id/textData" />
 
     <TextView
@@ -138,7 +137,7 @@
 
     <View
         android:id="@+id/containerModal"
-        style="@style/ContainerWhite2"
+        style="@style/ContainerWhite"
         android:layout_marginHorizontal="80dp"
         android:layout_marginTop="80dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -146,72 +145,61 @@
         app:layout_constraintTop_toBottomOf="@+id/header2" />
 
     <TextView
-        android:id="@+id/textFormaPagamento"
+        android:id="@+id/textCPF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:text="@string/forma_de_pagamento"
+        android:text="@string/titleCPF"
         android:textColor="@color/blue1"
         android:textSize="52sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/containerModal"
-        />
+        app:layout_constraintTop_toTopOf="@id/containerModal" />
+
+
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnCartaoDebito"
-        style="@style/ButtonDebito"
-        android:layout_width="500dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="130dp"
-        android:layout_marginRight="600dp"
-        android:text="@string/cartao_de_debito"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/containerModal"
+         android:id="@+id/btnNao"
+         style="@style/Button"
+         android:layout_width="500dp"
+         android:layout_height="100dp"
+         android:layout_marginTop="230dp"
+         android:layout_marginRight="600dp"
+         android:text="Não"
+         android:textSize="32sp"
+         android:textStyle="bold"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintTop_toTopOf="@id/containerModal"
+
         />
 
+
+
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnCartaoCredito"
-        style="@style/ButtonConfirm2"
+        android:id="@+id/btnSim"
+        style="@style/ButtonConfirm"
         android:layout_width="500dp"
         android:layout_height="100dp"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="230dp"
         android:layout_marginLeft="600dp"
-        android:text="@string/cartao_de_credito"
+        android:text="Sim"
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/containerModal"
-        />
+        app:layout_constraintTop_toTopOf="@id/containerModal" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnPix"
-        style="@style/ButtonConfirm2"
-        android:layout_width="500dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="260dp"
-        android:layout_marginRight="600dp"
-        android:text="@string/pix"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/containerModal"
-        />
+
 
     <View
         android:id="@+id/bannerHora"
         style="@style/modalHora"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/containerModal"
-        />
+        app:layout_constraintTop_toBottomOf="@id/containerModal" />
 
     <TextClock
         android:id="@+id/text_hora"
@@ -226,7 +214,9 @@
         android:textColor="@color/white"
         android:textSize="50sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/bannerHora"
-        />
+        app:layout_constraintTop_toTopOf="@id/bannerHora" />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

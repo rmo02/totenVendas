@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">ValenToten</string>
+    <string name="home">Toque para pagar seu Ticket</string>
+    <string name="titleCPF">Deseja o CPF/CNPJ na nota?</string>
+    <string name="titleScan">Aproxime o ticket na leitora</string>
+    <string name="hint_cpf"><font size="26">XXX.XXX.XXX-XX</font></string>
     <string name="forma_de_pagamento">Qual a forma de pagamento?</string>
     <string name="cartao_de_debito">Cartão de Débito</string>
     <string name="cartao_de_credito">Cartão de Crédito</string>
